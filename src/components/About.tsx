@@ -15,10 +15,13 @@ const About = () => {
           </div>
           <div className="flex flex-col justify-center">
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              Biware is a specialized business intelligence consulting firm. We partner with organizations to unlock the full potential of their data.
+              In a world where data grows faster than decisions are made, companies need more than spreadsheets — they need intelligence.
+              We help organizations evolve from traditional Excel-based reporting toward modern analytics, automated insights, and business intelligence platforms.
+
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Our team combines deep technical expertise with strategic thinking to deliver solutions that matter. From data architecture to visualization, we build the foundation for smarter decisions.
+              
+              By integrating innovative technologies with existing reporting workflows, we preserve what already works integrating Excel Sheets with Microsoft Power BI unlocking new levels of efficiency, accuracy, and strategic clarity.
             </p>
           </div>
         </div>
@@ -26,7 +29,7 @@ const About = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 pt-16 border-t border-border">
           {[
             { value: "50+", label: "Clients" },
-            { value: "8+", label: "Years" },
+            { value: "20+", label: "Years" },
             { value: "200+", label: "Projects" },
             { value: "15", label: "Experts" },
           ].map((stat) => (
