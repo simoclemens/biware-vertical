@@ -15,15 +15,15 @@ export default {
   	extend: {
 		fontFamily: {
 			display: [
-				'Lato',
+				'Montserrat',
 				'sans-serif'
 			],
 			body: [
-				'Lato',
+				'Montserrat',
 				'sans-serif'
 			],
 			sans: [
-				'Lato',
+				'Montserrat',
 				'ui-sans-serif',
 				'system-ui',
 				'-apple-system',
