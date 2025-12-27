@@ -22,8 +22,7 @@ const Contact = () => {
               <span className="text-2xl md:text-3xl font-display">info@biware.it</span>
               <ArrowUpRight className="w-6 h-6 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
             </a>
-            <a href="tel:+1234567890" className="group flex items-center justify-between py-6 border-b border-border hover:border-primary transition-colors">+39 0112341<span className="text-2xl md:text-3xl font-display">+
-+</span>
+            <a href="tel:+1234567890" className="group flex items-center justify-between py-6 border-b border-border hover:border-primary transition-colors"><span className="text-2xl md:text-3xl font-display">+39 011 3241 4817</span>
               <ArrowUpRight className="w-6 h-6 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
             </a>
           </div>

@@ -1,11 +1,13 @@
 import ferrettiLogo from "@/assets/clients/ferretti-group.png";
 import jungheinrichLogo from "@/assets/clients/jungheinrich.png";
 import bancaSellaLogo from "@/assets/clients/banca-sella.png";
+import fileniLogo from "@/assets/clients/fileni.png";
 
 const clients = [
   { name: "Ferretti Group", logo: ferrettiLogo },
   { name: "Jungheinrich", logo: jungheinrichLogo },
   { name: "Banca Sella", logo: bancaSellaLogo },
+  { name: "Fileni", logo: fileniLogo },
 ];
 
 const ClientsScroller = () => {

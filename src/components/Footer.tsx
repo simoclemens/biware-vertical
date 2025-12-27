@@ -1,3 +1,4 @@
+import { Linkedin } from "lucide-react";
 import logo from "@/assets/biware-logo.png";
 
 const Footer = () => {
@@ -8,14 +9,16 @@ const Footer = () => {
           <img src={logo} alt="Biware" className="h-12" />
         </div>
         <p className="text-muted-foreground text-sm">
-          © 2024 Biware. All rights reserved.
+          © 2026 Biware. All rights reserved.
         </p>
         <div className="flex items-center gap-6">
-          <a href="#" className="text-muted-foreground text-sm hover:text-primary transition-colors">
-            LinkedIn
-          </a>
-          <a href="#" className="text-muted-foreground text-sm hover:text-primary transition-colors">
-            Twitter
+          <a
+            href="https://www.linkedin.com/company/biware-s.r.l."
+            className="text-muted-foreground hover:text-primary transition-colors"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Linkedin className="h-5 w-5" aria-label="LinkedIn" />
           </a>
         </div>
       </div>
