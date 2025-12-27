@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="py-8 px-6 md:px-12 lg:px-24 border-t border-border">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-4">
-          <img src={logo} alt="Biware" className="h-8" />
+          <img src={logo} alt="Biware" className="h-12" />
         </div>
         <p className="text-muted-foreground text-sm">
           © 2024 Biware. All rights reserved.
