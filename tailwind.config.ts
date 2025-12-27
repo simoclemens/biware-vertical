@@ -15,15 +15,15 @@ export default {
   	extend: {
 		fontFamily: {
 			display: [
-				'Plus Jakarta Sans',
+				'Lato',
 				'sans-serif'
 			],
 			body: [
-				'Plus Jakarta Sans',
+				'Lato',
 				'sans-serif'
 			],
 			sans: [
-				'Plus Jakarta Sans',
+				'Lato',
 				'ui-sans-serif',
 				'system-ui',
 				'-apple-system',
