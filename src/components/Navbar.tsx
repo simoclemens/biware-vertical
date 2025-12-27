@@ -2,9 +2,9 @@ import logo from "@/assets/biware-logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 lg:px-24 py-4 flex items-center justify-between bg-background/90 backdrop-blur-sm border-b border-border/50">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 lg:px-24 py-2 flex items-center justify-between bg-background/90 backdrop-blur-sm border-b border-border/50">
       <a href="#">
-        <img src={logo} alt="Biware" className="h-28 md:h-32" />
+        <img src={logo} alt="Biware" className="h-16 md:h-20" />
       </a>
       
       <div className="hidden md:flex items-center gap-8">
