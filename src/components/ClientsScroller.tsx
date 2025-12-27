@@ -17,11 +17,11 @@ const ClientsScroller = () => {
             key={index}
             className="flex-shrink-0 px-12 md:px-16 flex items-center justify-center"
           >
-            <div className="w-40 h-20 md:w-48 md:h-24 bg-white/5 rounded-lg flex items-center justify-center p-4 hover:bg-white/10 transition-colors">
+            <div className="group w-40 h-20 md:w-48 md:h-24 bg-white/5 rounded-lg flex items-center justify-center p-4 hover:bg-white/10 transition-colors">
               <img
                 src={client.logo}
                 alt={client.name}
-                className="max-w-full max-h-full object-contain"
+                className="max-w-full max-h-full object-contain grayscale opacity-60 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
               />
             </div>
           </div>
