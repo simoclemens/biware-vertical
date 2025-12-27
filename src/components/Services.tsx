@@ -25,10 +25,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section
-      id="services"
-      className="py-32 px-6 md:px-12 lg:px-24 bg-gradient-to-b from-[hsl(32_55%_96%)] via-[hsl(30_50%_95%)] to-[hsl(28_45%_93%)]"
-    >
+    <section id="services" className="py-32 px-6 md:px-12 lg:px-24 bg-background">
       <div className="max-w-6xl mx-auto">
         <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">
           Services
