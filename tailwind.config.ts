@@ -13,28 +13,28 @@ export default {
   		}
   	},
   	extend: {
-  		fontFamily: {
-  			display: [
-  				'Playfair Display',
-  				'serif'
-  			],
-  			body: [
-  				'DM Sans',
-  				'sans-serif'
-  			],
-  			sans: [
-  				'DM Sans',
-  				'ui-sans-serif',
-  				'system-ui',
-  				'-apple-system',
-  				'BlinkMacSystemFont',
-  				'Segoe UI',
-  				'Roboto',
-  				'Helvetica Neue',
-  				'Arial',
-  				'Noto Sans',
-  				'sans-serif'
-  			],
+		fontFamily: {
+			display: [
+				'Plus Jakarta Sans',
+				'sans-serif'
+			],
+			body: [
+				'Plus Jakarta Sans',
+				'sans-serif'
+			],
+			sans: [
+				'Plus Jakarta Sans',
+				'ui-sans-serif',
+				'system-ui',
+				'-apple-system',
+				'BlinkMacSystemFont',
+				'Segoe UI',
+				'Roboto',
+				'Helvetica Neue',
+				'Arial',
+				'Noto Sans',
+				'sans-serif'
+			],
   			serif: [
   				'Crimson Pro',
   				'ui-serif',
